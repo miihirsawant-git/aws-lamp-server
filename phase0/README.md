@@ -10,7 +10,7 @@ Honestly, nobody is asking you to be an expert. Just familiarize yourself with t
 ## Things you should be able familiar with at the end of this phase
 
 ### Linux
-Navigate with the `cd` command.
+- Navigate with the `cd` command.
 - Listing contents with `ls` command.
 - Create, copy, move, rename, files and directories with `mkdir`, `cp`, `rm`, and `touch`.
 - Locate things with `whereis`, `which`, and `find`.
@@ -34,3 +34,5 @@ Navigate with the `cd` command.
 ### Good to follow
 - IAM defined admin user for using AWS.
 - AWS root user should be disabled or never be used except defining administrator users and Identity Access Management (IAM) roles in AWS.
+
+## [Go to Phase2: Linux Server setup on AWS](phase2/README.md)
