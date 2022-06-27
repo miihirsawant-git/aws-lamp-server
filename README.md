@@ -12,13 +12,13 @@ Amazon Web Services is a subsidiary of Amazon that provides on-demand cloud comp
 
 ## Phases
 
-| Order | Topic                           |
-|-------|---------------------------------|
-| 0     | Prerequisite                    |
-| 1     | Linux Server setup on AWS       |
-| 2     | Apache Server setup             |
-| 3     | Database Server setup           |
-| 4     | PHP Server setup                |
+| Order | Topic                           | Notes          |
+|-------|---------------------------------|----------------|
+| 0     | [Prerequisite](phase0/README.md)| Optional: If starting from scratch|
+| 1     | Linux Server setup on AWS       |   |
+| 2     | Apache Server setup             |   |
+| 3     | Database Server setup           |   |
+| 4     | PHP Server setup                |   |
 
 
 ### [Go to Phase 0: Prerequisite]
