@@ -35,4 +35,4 @@ Honestly, nobody is asking you to be an expert. Just familiarize yourself with t
 - IAM defined admin user for using AWS.
 - AWS root user should be disabled or never be used except defining administrator users and Identity Access Management (IAM) roles in AWS.
 
-## [Go to Phase2: Linux Server setup on AWS](phase2/README.md)
+## [Go to Phase1: Linux Server setup on AWS](phase1/README.md)
