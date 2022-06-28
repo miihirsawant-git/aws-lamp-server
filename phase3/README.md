@@ -34,8 +34,8 @@ Install with the package manager. Now the mariadb engine is packaged by the name
 
 - Finally login to your freshly installed mariadb-server with command
 
-        - mysql -u root -p
--    `Enter your database root password` after the execution of command
+        mysql -u root -p
+-    Enter your `database root password` after the execution of command
 
 
 
@@ -44,8 +44,8 @@ You can create and configure your own databases inside the MariaDB server, creat
 -   Some basic commands you could try out to familiarize and get started
         
            show databases;
-            use mysql;
-            show tables;
+           use mysql;
+           show tables;
 
 ## Completion
 That’s it. Your MariaDB server is up and running!
