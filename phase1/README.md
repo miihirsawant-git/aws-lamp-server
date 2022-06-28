@@ -36,3 +36,5 @@ We will be using an RHEL-based operating system for this repo project. The reaso
 ## Completion
 That’s it. Your Linux server is up and running!
 
+### [Go to Phase 2: Apache Server setup ](phase2/README.md)
+
