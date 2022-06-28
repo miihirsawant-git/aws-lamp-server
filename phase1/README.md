@@ -1,4 +1,3 @@
-# Overview
 # Phase1: Linux Server setup on AWS
 We will be using an RHEL-based operating system for this repo project. The reason for choosing this specific distro would be its rock-solid stable deployment released after continuous testing by RHEL.
 
@@ -16,7 +15,7 @@ We will be using an RHEL-based operating system for this repo project. The reaso
 -	Choose instance type
     -	`t2.micro` -> would be sufficient for this project, but you are free to choose your own size flavor
 - Create a `key-pair` -> to help connect to this instance. Save this key at a secure place as you won’t be able to connect without it
--	Configure network firewall security group settings
+-	Configure `network firewall security group` settings
     - Create a new security group with an appropriate name
     -	`Allow HTTP` -> from anywhere -> 0.0.0.0/0
     -	`Allow HTTPS` -> from anywhere -> 0.0.0.0/0
@@ -29,9 +28,14 @@ We will be using an RHEL-based operating system for this repo project. The reaso
     -	GUI
         - Top right column button -> EC2 Instance Connect -> Connect
     -	Terminal
-        - Type `ssh -i <key-pair.pem file> ec2-user@<public ipv4 address>` -> Accept the fingerprint -> Connect
+        - Type 
+            
+                ssh -i <key-pair.pem file> ec2-user@<public ipv4 address> 
+            
+        -   Accept the fingerprint -> Connect
 - Once connected, update your system to the latest available patches using package manager
-    - Type `sudo dnf upgrade -y` in terminal
+        
+       sudo dnf upgrade -y 
 
 ## Completion
 That’s it. Your Linux server is up and running!
