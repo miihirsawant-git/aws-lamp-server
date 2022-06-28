@@ -30,11 +30,11 @@ We will be using an RHEL-based operating system for this repo project. The reaso
         - Top right column button -> EC2 Instance Connect -> Connect
     -	Terminal
         - Type `ssh -i <key-pair.pem file> ec2-user@<public ipv4 address>` -> Accept the fingerprint -> Connect
-- Once connected, update your system to the latest available patches
-    - Type `sudo dnf upgrade -y`
+- Once connected, update your system to the latest available patches using package manager
+    - Type `sudo dnf upgrade -y` in terminal
 
 ## Completion
 That’s it. Your Linux server is up and running!
 
-### [Go to Phase 2: Apache Server setup ](phase2/README.md)
+### [Go to Phase 2: Apache Server setup ](../phase2/README.md)
 
