@@ -26,13 +26,12 @@ We will be using an RHEL-based operating system for this repo project. The reaso
 -	Ensure the Instance state is on the running for a green signal on status checks.
 -	Connect 
     -	GUI
-        - Top right column button -> EC2 Instance Connect -> Connect
+            
+            Top right column button -> EC2 Instance Connect -> Connect
     -	Terminal
-        - Type 
+             
+            ssh -i <key-pair.pem file> ec2-user@<instance public ipv4 address> 
             
-                ssh -i <key-pair.pem file> ec2-user@<public ipv4 address> 
-            
-        -   Accept the fingerprint -> Connect
 - Once connected, update your system to the latest available patches using package manager
         
        sudo dnf upgrade -y 
