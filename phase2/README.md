@@ -20,7 +20,7 @@ We will be installing an apache server on our previously built Linux machine. Ap
 ## Optional
 You can edit your own web server by editing the index file in apache html directory. Editing can be done with vi text editor with command 
     
-    sudo vi /var/www/html/index.html
+    sudo vi /usr/share/httpd/noindex/index.html 
 Don't forget to restart your apache server post editing the index file 
 
     sudo systemctl restart httpd

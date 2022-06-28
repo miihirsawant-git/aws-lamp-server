@@ -18,7 +18,7 @@ Amazon Web Services is a subsidiary of Amazon that provides on-demand cloud comp
 | 1     | [Linux Server setup on AWS](phase1/README.md) |RHEL on AWS EC2        |
 | 2     | [Apache Server setup](phase2/README.md)       |Apache Web on RHEL     |
 | 3     | [Database Server setup](phase3/README.md)     |MariaDB on RHEL        |
-| 4     | PHP Server setup                              |   |
-| 5     | Conclusion                                    |   |
+| 4     | [PHP Module setup](phase4/README.md)                               |PHP Module on RHEL   |
+| 5     | [Conclusion](phase5/README.md)                                    |Completion   |
 
 ### [Go to Phase 0: Prerequisite](phase0/README.md)

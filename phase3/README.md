@@ -50,4 +50,4 @@ You can create and configure your own databases inside the MariaDB server, creat
 ## Completion
 That’s it. Your MariaDB server is up and running!
 
-## [Got to Phase4: PHP Server setup](../phase4/README.md)
+## [Got o Phase4: PHP Server setup](../phase4/README.md)
